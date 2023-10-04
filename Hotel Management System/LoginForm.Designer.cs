@@ -100,6 +100,7 @@
             this.Button_login.Size = new System.Drawing.Size(272, 45);
             this.Button_login.TabIndex = 5;
             this.Button_login.Text = "Login";
+            this.Button_login.Click += new System.EventHandler(this.Button_login_Click);
             // 
             // label_exit
             // 
@@ -200,6 +201,7 @@
             this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.LoginForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
